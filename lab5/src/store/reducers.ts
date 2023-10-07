@@ -1,6 +1,6 @@
 import { Actions, dashboardActions, AppState } from "../types/store";
 
-export const reducers = (currentAction: Actions, currentState:AppState): AppState => {
+export const reducer = (currentAction: Actions, currentState:AppState): AppState => {
     const {action, payload} = currentAction
 
     switch (action){

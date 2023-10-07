@@ -22,7 +22,8 @@ class Dashboard extends HTMLElement{
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = ``
 
-            const bodyContainerButtons = document.createElement("main-body")
+            const bodyContainerButtons = document.createElement("my-card-row")
+            bodyContainerButtons.classList.add("mi-contenedor-final")
             this.shadowRoot?.appendChild(bodyContainerButtons)
 
             this.rowContainer.forEach((container)=>{
@@ -30,12 +31,16 @@ class Dashboard extends HTMLElement{
             });
 
             const emoji = this.ownerDocument.createElement("div")
+            emoji.classList.add("emojis-final")
 
             const DivCabeza = this.ownerDocument.createElement("img")
             const DivManos = this.ownerDocument.createElement("img")
 
             DivCabeza.src = appState.cabeza
             DivManos.src = appState.manos
+
+            DivCabeza.classList.add("cabeza-emoji")
+            DivManos.classList.add("manos-emoji")
 
             emoji.appendChild(DivCabeza)
             emoji.appendChild(DivManos)

@@ -8,11 +8,11 @@ class Emojiss {
                 manos: "https://emojigraph.org/media/apple/heart-hands-medium-skin-tone_1faf6-1f3fd.png"
             },
             {
-                cabeza: "https://imageio.forbes.com/specials-images/imageserve/602c09c9135a060af5e1a8f4/Face-with-Spiral-Eyes---a-new-Apple-emoji-/960x0.png?height=711&width=711&fit=bounds",
+                cabeza: "https://cdn.shopify.com/s/files/1/1061/1924/products/Poisoned_Emoji_Icon_885fdba4-bbff-40e9-8460-1f453970cbdb.png?v=1485573481",
                 manos: "https://emojigraph.org/media/apple/handshake-light-skin-tone_1f91d-1f3fb.png"
             },
             {
-                cabeza: "https://imageio.forbes.com/specials-images/imageserve/63efaa7702c6b4c4adb8d5b0/Shaking-face-emoji-in-iOS-16-4-/960x0.png?height=711&width=711&fit=bounds",
+                cabeza: "https://emojiisland.com/cdn/shop/products/13_grande.png?v=1571606116",
                 manos: "https://emojitool.com/img/apple/ios-13.3/call-me-hand-type-1-2-167.png"
             }
         ]

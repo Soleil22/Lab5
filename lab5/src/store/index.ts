@@ -1,16 +1,17 @@
-import { Actions, AppState, Observer } from "../types/store";
-import { reducers } from "./reducers";
+import { Actions,AppState,Observer } from "../types/store";
+import { reducer } from "./reducers";
 
 export let appState: AppState = {
-    cabeza: ``,
-    manos: ``
-}
+  cabeza: ``,
+  manos: ``,
 
-let observers: Observer[] = []
+};
 
-export const dispatch = (actions: Actions) => {
+let observers: Observer[] = [];
+
+export const dispatch = (action: Actions) => {
     const clone = JSON.parse(JSON.stringify(appState))
-    appState = reducers(actions, clone);
+    appState = reducer(action, clone);
     observers.forEach(o => o.render());
 }
 
