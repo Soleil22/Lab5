@@ -34,7 +34,7 @@ class CardMini extends HTMLElement {
     }
 
     connectedCallback() {
-		this.render();
+		this.mount();
 	}
 
     mount(){
